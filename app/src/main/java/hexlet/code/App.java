@@ -2,28 +2,28 @@ package hexlet.code;
 
 import java.util.Scanner;
 public class App {
+    private static final int QUESTIONS_COUNT = 3;
+
     public static void main(String[] args) {
-        outLn("Please enter the game number and press Enter.");
-        outLn("1 - Greet");
-        outLn("2 - Even");
-        outLn("0 - Exit");
-        out("Your choice: ");
+        System.out.println("Please enter the game number and press Enter.");
+        System.out.println("1 - Greet");
+        System.out.println("2 - Even");
+        System.out.println("0 - Exit");
+        System.out.print("Your choice: ");
         Scanner scanner = new Scanner(System.in);
         String userChoice = scanner.next();
         if (userChoice.equals("0")) {
             return;
         }
-        outLn("");
+        System.out.println("");
         Cli.welcome();
         String userName = Cli.askUserName();
         Cli.greetUser(userName);
-    }
 
-    private static <T> void out(T message) {
-        System.out.print(message);
-    }
+        switch (userChoice) {
+            case "2": Even.run(userName, QUESTIONS_COUNT);
+            default: return;
+        }
 
-    private static <T> void outLn(T message) {
-        System.out.println(message);
     }
 }
