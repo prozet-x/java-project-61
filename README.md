@@ -3,3 +3,5 @@
 [![Actions Status](https://github.com/prozet-x/java-project-61/workflows/hexlet-check/badge.svg)](https://github.com/prozet-x/java-project-61/actions)
 ### Even game:
 [![asciicast](https://asciinema.org/a/QQF2cyDlM3ad9O9QByL8t10Jp.svg)](https://asciinema.org/a/QQF2cyDlM3ad9O9QByL8t10Jp)
+### Calc game:
+[![asciicast](https://asciinema.org/a/X0PmDzREPSNAtCmyFFx2TJCKp.svg)](https://asciinema.org/a/X0PmDzREPSNAtCmyFFx2TJCKp)

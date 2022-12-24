@@ -3,7 +3,7 @@ package hexlet.code;
 import java.util.Map;
 import java.util.Scanner;
 
-public class GameEngine {
+public class Engine {
     public static void playGame(String userName, String rules, Map<String, String> questionAndAnswer) {
         System.out.println(rules);
         Scanner scanner = new Scanner(System.in);
