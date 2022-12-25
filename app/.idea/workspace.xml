@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2f940ac-2e96-4d65-8a54-bcf5c7f28bbc" name="Changes" comment="" />
+    <list default="true" id="b2f940ac-2e96-4d65-8a54-bcf5c7f28bbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +108,7 @@
       <command value="gradle installDist" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.app [installDist]">
+  <component name="RunManager" selected="Gradle.app [checkstyleMain]">
     <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -212,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.app [installDist]" />
-        <item itemvalue="Gradle.app [build]" />
-        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [checkstyleMain]" />
+        <item itemvalue="Gradle.app [installDist]" />
+        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [check]" />
+        <item itemvalue="Gradle.app [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +237,7 @@
       <workItem from="1671723084463" duration="5141000" />
       <workItem from="1671872132255" duration="9562000" />
       <workItem from="1671907360761" duration="3029000" />
+      <workItem from="1671977646350" duration="1830000" />
     </task>
     <servers />
   </component>
