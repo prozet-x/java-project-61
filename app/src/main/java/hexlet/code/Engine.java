@@ -8,7 +8,9 @@ public class Engine {
         System.out.println(rules);
         Scanner scanner = new Scanner(System.in);
         for (Map.Entry<String, String> element: questionAndAnswer.entrySet()) {
-            System.out.printf("Question: %s\n", element.getKey());
+            //System.out.printf("Question: %s\n", element.getKey());
+            System.out.print("Question: ");
+            System.out.println(element.getKey());
             System.out.print("Your answer: ");
             String userAnswer = scanner.next();
             String rightAnswer = element.getValue();
