@@ -7,12 +7,14 @@ import java.util.Random;
 
 public class Calc {
     private static final String[] OPERATORS = {"+", "-", "*"};
+    private static final int MAX_NUMBER = 99;
     public static void run(String userName, int questionsCount) {
+
         Map<String, String> qAndA = new HashMap<>();
         Random randomizer = new Random();
         for (int i = 1; i <= questionsCount; i++) {
-            int a = randomizer.nextInt(99);
-            int b = randomizer.nextInt(99);
+            int a = randomizer.nextInt(MAX_NUMBER);
+            int b = randomizer.nextInt(MAX_NUMBER);
             String operator = OPERATORS[randomizer.nextInt(OPERATORS.length)];
             String key = String.valueOf(a) + " " + operator + " " + String.valueOf(b);
             switch (operator) {
